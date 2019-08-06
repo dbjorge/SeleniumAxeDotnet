@@ -21,7 +21,7 @@ namespace Selenium.Axe.Test
             _webDriver?.Quit();
             _webDriver?.Dispose();
         }
-
+        /*
         [TestMethod]
         [TestCategory("Integration")]
         [DataRow("Chrome")]
@@ -68,5 +68,6 @@ namespace Selenium.Axe.Test
             _webDriver.Manage().Timeouts().AsynchronousJavaScript = TimeSpan.FromMinutes(3);
             _webDriver.Manage().Window.Maximize();
         }
+        */
     }
 }
